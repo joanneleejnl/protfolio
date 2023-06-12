@@ -1,0 +1,256 @@
+ 
+/*font-family: 'Italiana', serif*/
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+/*font-family: 'Noto Sans TC', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Noto Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    width:100%; height:100%;
+    padding:0px; margin: 0px;
+    font-family: noto sans;
+}
+
+header {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%; height: 40px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 60px; height: 60px;
+    background-color: #ec5252;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.letter{
+    font-size: 30px;
+    color: white;
+    padding-right: 4px;
+}
+
+.nav{
+    width:100%;
+    /*background: #c08b8b;*/
+    margin-right: 40px;
+
+}
+
+.nav ul {
+    /*border: solid 1px;*/
+    padding: 0px; margin: 0px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.nav ul a {
+    color: #e0e0e0;
+}
+
+.nav ul a:hover{
+    color: #ec5252;
+}
+
+/*以上為Header*/
+
+/*
+.banner{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url("../Image/flower.png");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+
+}
+
+.text-overlay{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+*/
+
+
+.banner{
+    max-width: 100%; 
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container1{
+    max-width: 100%;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+.text{
+    max-width: 100%;
+}
+
+.render{
+    width: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    font-family: 'Italiana', serif;
+    letter-spacing: 2px;
+}
+
+.section1{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 120px 0px;
+}
+
+.container{
+    width: 200px;
+
+}
+
+.icon{
+    max-width: 100%;
+    padding-bottom:100%;
+    background-color: beige;
+}
+
+.iconword{
+    padding: 8px 4px;
+    text-align: center;
+}
+
+.section2{
+    max-width: 100%; 
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Italiana', serif;
+    letter-spacing: 2px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work{
+    width: calc(50% - 40px);
+    margin-bottom: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.photo{
+    max-width: 100%;
+    padding-bottom: 60%; 
+    background-color: rgb(255, 237, 237);
+    border-radius: 4%;
+    background-image: url("../Image/MyFleet.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.workname{
+    padding: 8px;
+    max-width: 100%;
+}
+
+.worktitle{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.worksubtitle{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+
+
+
+/*footer*/
+
+footer{
+    padding: 12px 0px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.gmail{
+    font-family: 'Italiana', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info ul{
+    display: flex;
+    padding: 16px; margin: 0px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 40px;
+    font-size: 14px;
+    color: #111;
+}
+
+.copyright{
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 14px;
+}
