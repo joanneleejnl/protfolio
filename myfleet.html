@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
         <title>Joanne Protfolio</title>
         <!-- 引入外部CSS檔案 -->
         <!-- ../往上一層資料夾，CSS/進入這個資料夾 -->
         <link rel="stylesheet" href="CSS/myfleet.css"/>
+        <script src="JS/myfleet.js"></script>
     </head>
     <body>
         <!-- header -->
@@ -30,8 +32,9 @@
             </div>
         </div>
         <div class="banner">
-            <img src="">
+            <img src="Image/Cover.png">
         </div>
+
         <div class="section2">
             <div class="box">role</div>
             <div class="box">deliverables</div>
@@ -73,51 +76,65 @@
                 <div class="context">
                     <div class="context-title">車隊的挑戰</div>
                     <div class="challenge">
-                        <div class="challenge-context">
-                            <div class="context-subtitle">效率</div>
-                            <p>隨著電商市場日益蓬勃發展，快速到貨成為市場的基本需求，
-                                也對於物流配送速度的要求逐漸提高。
-                                <br>
-                                車隊管理者正面臨缺工的窘境，此外也因人員流動率高，
-                                導致須頻繁訓練新進駕駛員造成教育成本上升。</p>
+                        <div class="fleetphoto">
+                            <img src="Image/challenge.png">
                         </div>
-                        <div class="challenge-context">
-                            <div class="context-subtitle">安全</div>
-                            <p>駕駛每日需面臨高工時及高里程的工作環境，行車安全成為急迫面對的挑戰。
-                                <br>
-                                車隊管理者僅能被動的待車故或罰單發生後教育駕駛，無法主動針對駕駛行為做應對。</p>
-                        </div>
-                        <div class="challenge-context">
-                            <div class="context-subtitle">節能</div>
-                            <p>淨零碳排隨著政府政策推動已為未來趨勢。
-                                <br>
-                                為控制營運成本及貨物溫度，冷鏈管理需求不斷增加。</p>
+                        <div class="fleetchallenge">
+                            <div class="challenge-context">
+                                <div class="context-subtitle">效率（Social）</div>
+                                <p>隨著電商市場日益蓬勃發展，快速到貨成為市場的基本需求，
+                                    也對於物流配送速度的要求逐漸提高。
+                                    <br><br>
+                                    車隊管理者正面臨缺工的窘境，此外也因人員流動率高，
+                                    導致須頻繁訓練新進駕駛員造成教育成本上升。</p>
+                            </div>
+                            <div class="challenge-context">
+                                <div class="context-subtitle">安全（Governace）</div>
+                                <p>駕駛每日需面臨高工時及高里程的工作環境，行車安全成為急迫面對的挑戰。
+                                    <br><br>
+                                    車隊管理者僅能被動的待車故或罰單發生後教育駕駛，無法主動針對駕駛行為做應對。</p>
+                            </div>
+                            <div class="challenge-context">
+                                <div class="context-subtitle">節能（Enviromental）</div>
+                                <p>淨零碳排隨著政府政策推動已為未來趨勢。
+                                    <br><br>
+                                    為控制營運成本及貨物溫度，冷鏈管理需求不斷增加。</p>
+                            </div>
                         </div>
                     </div>
                     <br>
                     <div class="context-title">關係人的痛點</div>
-                    <div class="challenge">
+                    <div class="painpoint">
                         <div class="challenge-context">
+                            <div class="painpointphoto">
+                                <img src="Image/businessman.png">
+                            </div>
                             <div class="context-subtitle">車隊老闆</div>
-                            <p>資本及營運成本不停支出
+                            <p>• 資本及營運成本不停支出
                                 <br>
-                                缺乏駕駛人員</p>
+                                • 缺乏駕駛人員</p>
                         </div>
                         <div class="challenge-context">
+                            <div class="painpointphoto">
+                                <img src="Image/businessman.png">
+                            </div>
                             <div class="context-subtitle">駕駛及主管</div>
-                            <p>管理者缺乏有效且數據化的雙向管理工具。
+                            <p>• 管理者缺乏有效且數據化的雙向管理工具。
                                 <br>
-                                駕駛面對車上多樣設備發出的提醒及螢幕容易造成分心及疲勞。</p>
+                                • 駕駛面對車上多樣設備發出的提醒及螢幕容易造成分心及疲勞。</p>
                         </div>
                         <div class="challenge-context">
+                            <div class="painpointphoto">
+                                <img src="Image/businessman.png">
+                            </div>
                             <div class="context-subtitle">服務供應商</div>
-                            <p>無止盡的整合及客製化功能需求</p>
+                            <p>• 無止盡的整合及客製化功能需求</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="h3">市場研究(競品分析)</div>
+                <div class="h3">市場研究</div>
                 <div class="context">
                     <p>MyFleet客戶主要為不同大小規模商業車隊，
                         其目標尋找一個可以減少支出、加強效率、節省時間、
@@ -128,6 +145,14 @@
                         包含掌握違規項目、事件追蹤、事故調查、駕駛訓練儀表板以及所有車輛在路上
                         行駛的影像。此平台展示了即時狀態以及強調重要的事件，讓使用者輕鬆地找到
                         違規事件以及只需要幾個步驟產出報表。數據分析及駕駛訓練平台</p>
+
+                    <div class="photo-container">
+                        <img src="Image/Persona-owner.png" alt="Photo 1">
+                        <img src="Image/Persona-manager.png" alt="Photo 2">
+                        <img src="Image/Persona-driver.png" alt="Photo 3">
+                    </div>
+
+                    
                 </div>
             </div>
             <div class="container">
@@ -150,6 +175,7 @@
                 </div>
             </div>
         </div>
+        <!--設計-->
         <div class="section4">
             <div class="container2">
                 <div class="h3">車輛查詢</div>

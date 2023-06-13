@@ -85,9 +85,19 @@ header a{
 }
 
 .banner{
+    position: relative;
     width: 100%;
     height: 600px;
     background-color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+.banner img{
+    position: absolute;
+    height: 100%;
+    left: auto;
+    right: auto;
+    object-fit: cover;
 }
 
 .section2{
@@ -109,8 +119,8 @@ header a{
 
 .container{
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .h3{
@@ -124,7 +134,7 @@ header a{
     width: 100%;
     letter-spacing: 0.04rem;
     line-height: 1.8rem;
-    
+
 }
 
 .context-title{
@@ -134,14 +144,72 @@ header a{
 }
 
 .context-subtitle{
-    color: #1b45ff;
+    font-size: 18px;
+    color: #0078BB;
     font-weight: bold;
 
 }
 
+
+
+/*person照片*/
+
+.photo-container {
+    width: 100%; 
+    height: 100%;
+    padding-top: 40px;
+
+}
+ 
+.photo-container img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*挑戰*/
+
 .challenge-context{
     width: 100%;
+}
 
+.fleetphoto{
+    height: 320px;
+    display: block;
+}
+
+.fleetphoto img{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.fleetchallenge{
+    display: flex;
+    gap: 28px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+/*關係人的痛點*/
+
+.painpoint{
+    display: flex;
+    gap: 28px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.painpointphoto{
+    display: flex;
+    margin-top: 40px;;
+    margin-bottom: 40px;
+}
+
+.challenge-context img{
+    width: 50%;
+    margin: auto;
 }
 
 /*以下為設計*/
@@ -154,8 +222,8 @@ header a{
 .container2{
     width: 1200px;
     margin: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     gap: 20px;
 }
 
